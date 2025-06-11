@@ -33,10 +33,10 @@ export const config = {
     //   url: "https://rsshub.rssforever.com/github/trending/weekly/any",
     //   category: "代码项目",
     // },
-    {
-      name: "Hugging Face 每日论文",
-      url: "https://rsshub.rssforever.com/huggingface/daily-papers",
-      category: "科研论文",
+    // {
+    //   name: "Hugging Face 每日论文",
+    //   url: "https://rsshub.rssforever.com/huggingface/daily-papers",
+    //   category: "科研论文",
     },
     // {
     //   name: "Hugging Face 博客",
@@ -83,23 +83,23 @@ export const config = {
     //   url: "https://rsshub.rssforever.com/bangumi.tv/anime/followrank",
     //   category: "番剧资讯",
     // },
-  {
-    "name": "Nature Machine Intelligence",
-    "url": "https://www.nature.com/natmachintell.rss",
-    "category": "Area ‣ AI & CS"
-  },
-  {
-    "name": "Nature Computational Science",
-    "url": "https://www.nature.com/natcomputsci.rss",
-    "category": "Area ‣ AI & CS"
-  },
+  // {
+  //   "name": "Nature Machine Intelligence",
+  //   "url": "https://www.nature.com/natmachintell.rss",
+  //   "category": "Area ‣ AI & CS"
+  // },
+  // {
+  //   "name": "Nature Computational Science",
+  //   "url": "https://www.nature.com/natcomputsci.rss",
+  //   "category": "Area ‣ AI & CS"
+  // },
   {
     "name": "Mathematics and computing : nature.com subject feeds",
     "url": "https://www.nature.com/subjects/mathematics-and-computing/nature.rss",
     "category": "Area ‣ AI & CS"
   }
   ],
-  maxItemsPerFeed: 30,
+  maxItemsPerFeed: 10,
   dataPath: "./data",
 }
 
