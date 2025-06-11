@@ -99,7 +99,7 @@ export const config = {
     "category": "Area ‣ AI & CS"
   }
   ],
-  maxItemsPerFeed: 30,
+  maxItemsPerFeed: 5,
   dataPath: "./data",
 }
 
