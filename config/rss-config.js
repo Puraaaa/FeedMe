@@ -13,76 +13,76 @@
 // 默认配置
 export const config = {
   sources: [
-    {
-      name: "Hacker News 近期最佳",
-      url: "https://hnrss.org/best",
-      category: "科技资讯",
-    },
-    {
-      name: "Hacker News 历史每日前十",
-      url: "https://rsshub.rssforever.com/github/issue/headllines/hackernews-daily",
-      category: "科技资讯",
-    },
-    {
-      name: "Github 今日热门",
-      url: "https://rsshub.rssforever.com/github/trending/daily/any",
-      category: "代码项目",
-    },
-    {
-      name: "Github 近一周热门",
-      url: "https://rsshub.rssforever.com/github/trending/weekly/any",
-      category: "代码项目",
-    },
+    // {
+    //   name: "Hacker News 近期最佳",
+    //   url: "https://hnrss.org/best",
+    //   category: "科技资讯",
+    // },
+    // {
+    //   name: "Hacker News 历史每日前十",
+    //   url: "https://rsshub.rssforever.com/github/issue/headllines/hackernews-daily",
+    //   category: "科技资讯",
+    // },
+    // {
+    //   name: "Github 今日热门",
+    //   url: "https://rsshub.rssforever.com/github/trending/daily/any",
+    //   category: "代码项目",
+    // },
+    // {
+    //   name: "Github 近一周热门",
+    //   url: "https://rsshub.rssforever.com/github/trending/weekly/any",
+    //   category: "代码项目",
+    // },
     {
       name: "Hugging Face 每日论文",
       url: "https://rsshub.rssforever.com/huggingface/daily-papers",
       category: "科研论文",
     },
-    {
-      name: "Hugging Face 博客",
-      url: "https://rsshub.rssforever.com/huggingface/blog",
-      category: "技术博客",
-    },
-    {
-      name: "Google 开发者博客",
-      url: "https://rsshub.rssforever.com/google/developers/en",
-      category: "技术博客",
-    },
-    {
-      name: "Google 研究博客",
-      url: "https://rsshub.rssforever.com/google/research",
-      category: "技术博客",
-    },
+    // {
+    //   name: "Hugging Face 博客",
+    //   url: "https://rsshub.rssforever.com/huggingface/blog",
+    //   category: "技术博客",
+    // },
+    // {
+    //   name: "Google 开发者博客",
+    //   url: "https://rsshub.rssforever.com/google/developers/en",
+    //   category: "技术博客",
+    // },
+    // {
+    //   name: "Google 研究博客",
+    //   url: "https://rsshub.rssforever.com/google/research",
+    //   category: "技术博客",
+    // },
     // {
     //   name: "Product Hunt 今日热门",
     //   url: "https://rsshub.rssforever.com/producthunt/today",
     //   category: "产品资讯",
     // },
-    {
-      name: "LINUX DO 今日热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一周热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
-      category: "论坛",
-    },
-    {
-      name: "LINUX DO 近一月热门",
-      url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
-      category: "论坛",
-    },
-    {
-      name: "V2EX 今日热门",
-      url: "https://rsshub.rssforever.com/v2ex/topics/hot",
-      category: "论坛",
-    },
-    {
-      name: "Bangumi 近一月热门",
-      url: "https://rsshub.rssforever.com/bangumi.tv/anime/followrank",
-      category: "番剧资讯",
-    },
+    // {
+    //   name: "LINUX DO 今日热门",
+    //   url: "https://r4l.deno.dev/https://linux.do/top.rss?period=daily",
+    //   category: "论坛",
+    // },
+    // {
+    //   name: "LINUX DO 近一周热门",
+    //   url: "https://r4l.deno.dev/https://linux.do/top.rss?period=weekly",
+    //   category: "论坛",
+    // },
+    // {
+    //   name: "LINUX DO 近一月热门",
+    //   url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
+    //   category: "论坛",
+    // },
+    // {
+    //   name: "V2EX 今日热门",
+    //   url: "https://rsshub.rssforever.com/v2ex/topics/hot",
+    //   category: "论坛",
+    // },
+    // {
+    //   name: "Bangumi 近一月热门",
+    //   url: "https://rsshub.rssforever.com/bangumi.tv/anime/followrank",
+    //   category: "番剧资讯",
+    // },
   {
     "name": "Nature Machine Intelligence",
     "url": "https://www.nature.com/natmachintell.rss",
@@ -99,7 +99,7 @@ export const config = {
     "category": "Area ‣ AI & CS"
   }
   ],
-  maxItemsPerFeed: 5,
+  maxItemsPerFeed: 30,
   dataPath: "./data",
 }
 
