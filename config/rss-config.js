@@ -37,7 +37,7 @@ export const config = {
     //   name: "Hugging Face 每日论文",
     //   url: "https://rsshub.rssforever.com/huggingface/daily-papers",
     //   category: "科研论文",
-    },
+    // },
     // {
     //   name: "Hugging Face 博客",
     //   url: "https://rsshub.rssforever.com/huggingface/blog",
@@ -93,11 +93,11 @@ export const config = {
   //   "url": "https://www.nature.com/natcomputsci.rss",
   //   "category": "Area ‣ AI & CS"
   // },
-  {
+     {
     "name": "Mathematics and computing : nature.com subject feeds",
     "url": "https://www.nature.com/subjects/mathematics-and-computing/nature.rss",
     "category": "Area ‣ AI & CS"
-  }
+     }
   ],
   maxItemsPerFeed: 10,
   dataPath: "./data",
