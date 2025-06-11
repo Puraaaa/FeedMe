@@ -24,9 +24,9 @@ export const config = {
     //   category: "科技资讯",
     // },
     // {
-    //   name: "Github 今日热门",
-    //   url: "https://rsshub.rssforever.com/github/trending/daily/any",
-    //   category: "代码项目",
+      name: "Github 今日热门",
+      url: "https://rsshub.rssforever.com/github/trending/daily/any",
+      category: "代码项目",
     // },
     // {
     //   name: "Github 近一周热门",
@@ -93,11 +93,11 @@ export const config = {
   //   "url": "https://www.nature.com/natcomputsci.rss",
   //   "category": "Area ‣ AI & CS"
   // },
-     {
-    "name": "Mathematics and computing : nature.com subject feeds",
-    "url": "https://www.nature.com/subjects/mathematics-and-computing/nature.rss",
-    "category": "Area ‣ AI & CS"
-     }
+    //  {
+    // "name": "Mathematics and computing : nature.com subject feeds",
+    // "url": "https://www.nature.com/subjects/mathematics-and-computing/nature.rss",
+    // "category": "Area ‣ AI & CS"
+    //  }
   ],
   maxItemsPerFeed: 10,
   dataPath: "./data",
